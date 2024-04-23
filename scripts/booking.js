@@ -22,7 +22,7 @@ var Fri = document.getElementById("friday");
 Fri.addEventListener("click", selectDay);
 
 function selectDay(evt){
-    var day = evt.currentTarget
+    var day = evt.currentTarget;
     if (!day.classList.contains("clicked")){
         day.classList.add("clicked");
         num_days_selected += 1;
